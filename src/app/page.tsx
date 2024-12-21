@@ -9,6 +9,7 @@ export default async function Home() {
   const tagList: string[] = []
 
   const PageDataList: pageDataType[] = await getAllPage()
+  console.log(PageDataList)
 
   // 全ページのタグを取得
   PageDataList.forEach((element: pageDataType) => {

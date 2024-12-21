@@ -1,0 +1,370 @@
+.contents {
+    width: 720px;
+    margin: 0 auto;
+    padding: 30px 0 60px 0;
+}
+
+@media screen and (max-width:640px) {
+    .contents {
+        width: 340px;
+    }
+}
+
+.contentsTitle {
+    /* text-align: center; */
+    font-size: 40px;
+    width: 100%;
+    /* margin-inline: auto; */
+}
+
+@media screen and (max-width:640px) {
+    .contentsTitle {
+        font-size: 30px;
+        width: 100%;
+    }
+}
+
+.section {
+    width: 100%;
+    margin-top: 50px;
+    /* margin-bottom: 30px; */
+}
+
+.sectionTitle {
+    font-size: 24px;
+    height: 40px;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width:640px) {
+    .sectionTitle {
+        font-size: 18px;
+        height: 30px;
+    }
+}
+
+.text {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.subsection {
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:640px) {
+    .text {
+        font-size: 14px;
+    }
+
+    .subsection {
+        font-size: 16px;
+    }
+}
+
+.list {
+    /* padding: 30px 0; */
+    margin-inline: auto;
+    width: 100%;
+    /* border: 2px solid; */
+    /* background-color: rgba(255, 255, 0, 0.2); */
+}
+
+
+
+.listLink {
+    height: 80px;
+    border-radius: 5px;
+    margin: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    list-style: none;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #ffffff;
+}
+
+.linkBox {
+    padding: 10px;
+    /* align-content: center; */
+    font-size: 20px;
+}
+
+@media screen and (min-width:641px) {
+    .linkBox {
+        position: absolute;
+        inset: 0;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .linkBox {
+        display: block;
+        width: 100%;
+        height: fit-content;
+        padding: 2px;
+    }
+}
+
+.tagBox {
+    display: flex;
+}
+
+@media screen and (min-width:641px) {
+    .tagBox {
+        position: absolute;
+        /* padding-bottom: 10px; */
+        bottom: 10px;
+    }
+}
+
+.tag {
+    font-size: 14px;
+    line-height: 14px;
+    opacity: 0.7;
+    border: solid 1px;
+    margin-right: 10px;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+@media screen and (max-width:640px) {
+    .tag {
+        font-size: 10px;
+        line-height: 10px;
+    }
+}
+
+.date {
+    opacity: 0.5;
+    font-size: 18px;
+}
+
+@media screen and (min-width:641px) {
+    .date {
+        position: absolute;
+        right: 10px;
+    }
+}
+
+.pagination {
+    display: flex;
+    width: fit-content;
+    margin-inline: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.paginationList {
+    width: 24px;
+    height: 36px;
+    border: 1px solid;
+    margin-right: 10px;
+    cursor: pointer;
+    text-align: center;
+    align-content: center;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.paginationList.On {
+    width: 24px;
+    height: 36px;
+    border: 1px solid;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #76D9FF;
+}
+
+.paginationList:last-of-type {
+    margin-right: 0px;
+}
+
+.DateOfPage {
+    margin: 10px 0 0 auto;
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+@media screen and (max-width:640px) {
+    .DateOfPage {
+        margin: 5px auto 0 0;
+    }
+}
+
+.codeBox {
+    width: 100%;
+    margin: 30px auto 0 auto;
+    line-height: 1.6;
+}
+
+@media screen and (max-width:640px) {
+    .searchTag {
+        display: none;
+    }
+}
+
+.sectionStudy {
+    width: 100%;
+    margin-top: 20px;
+    /* margin-bottom: 30px; */
+}
+
+.sectionStudy:nth-of-type(1) {
+    margin-top: 20px;
+}
+
+.sectionTitleStudy {
+    font-size: 20px;
+    height: 40px;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.5);
+    align-content: center;
+}
+
+@media screen and (max-width:640px) {
+    .sectionTitleStudy {
+        font-size: 18px;
+        height: 30px;
+    }
+}
+
+
+.textStudy {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.subsectionStudy {
+    font-size: 16px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:640px) {
+    .textStudy {
+        font-size: 14px;
+    }
+
+    .subsectionStudy {
+        font-size: 16px;
+    }
+}
+
+.codeBoxStudy {
+    width: 100%;
+    margin: 10px auto 0 auto;
+    line-height: 1.4;
+    position: relative;
+}
+
+.scrollButton:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:640px) {
+    .scrollButton {
+        display: none;
+    }
+}
+
+.subList {
+    width: 30%;
+    /* height: 600px; */
+    height: fit-content;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:640px) {
+    .subList {
+        display: none;
+    }
+}
+
+.subListLink {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    align-content: center;
+    /* background-color: #76D9FF; */
+    border-width: 2px 0 0 0;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-style: solid;
+}
+
+.subListLink:last-of-type {
+    border-width: 2px 0 2px 0;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-style: solid;
+}
+
+.subListLinkName {
+    width: 100%;
+    height: 100%;
+    display: block;
+    align-content: center;
+    transition: all 0.1s;
+}
+
+.subListLinkName:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.contentsField {
+    position: relative;
+    margin-inline: auto;
+    margin-top: 80px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: white;
+}
+
+.contentsField:nth-of-type(1) {
+    margin-top: 120px;
+}
+
+.container {
+    max-width: 1280px;
+    display: flex;
+    margin-inline: auto;
+    padding-inline: calc(1280px * 0.05);
+}
+
+@media screen and (max-width:640px) {
+    .container {
+        padding-inline: 10px;
+    }
+}
+
+.mainListCotainer {
+    width: 70%;
+}
+
+@media screen and (max-width:640px) {
+    .mainListCotainer {
+        width: 100%;
+    }
+}
+
+.mainList {
+    width: 90%;
+    position: relative;
+    margin: 0 0 0 auto;
+    /* margin-right: 10%; */
+}
+
+@media screen and (max-width:640px) {
+    .mainList {
+        width: 100%;
+        margin-inline: auto;
+    }
+}
